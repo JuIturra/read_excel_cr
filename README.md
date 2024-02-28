@@ -2,12 +2,14 @@
 Benchmark xlsx reader with crystal
 
 # how does it works?
-* clone repo
-* cd read_excel_cr
-* shard install
-* crystal run main.cr for standar execution
-* crystal build main.cr --release for compile and create executable
-* ./main
+```bash
+$ clone repo
+$ cd read_excel_cr
+$ shard install
+$ crystal run main.cr for standar execution
+$ crystal build main.cr --release for compile and create executable
+$ ./main
+```
 
 # Bench
 crystal 1.10.1
